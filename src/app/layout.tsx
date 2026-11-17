@@ -19,7 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | ${siteConfig.title} – Konak / İzmir`,
+    default: `${siteConfig.name} | ${siteConfig.title} – Konak Alsancak / İzmir`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   keywords: [
     "kadın doğum uzmanı İzmir",
     "jinekolog Konak",
+    "kadın doğum uzmanı Alsancak",
     "gebelik takibi İzmir",
     "kısırlık tedavisi İzmir",
     "myom over kisti",

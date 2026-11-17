@@ -1,14 +1,9 @@
 "use client";
 
-import Link from "next/link";
-import { ArrowUpRight, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ServiceCard } from "@/components/ui/ServiceCard";
 import { useDictionary } from "@/lib/i18n";
-import { interestTags, services, type ServiceSlug } from "@/lib/services";
-
-const tagClass =
-  "inline-flex items-center gap-1.5 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors";
+import { services, type ServiceSlug } from "@/lib/services";
 
 export function Services({ availableImages }: { availableImages: ServiceSlug[] }) {
   const t = useDictionary();
@@ -35,34 +30,6 @@ export function Services({ availableImages }: { availableImages: ServiceSlug[] }
             </li>
           ))}
         </ul>
-
-        <div className="mt-16 rounded-3xl border border-violet-100 bg-gradient-to-br from-violet-50 via-white to-rose-50 px-6 py-10 text-center sm:px-10">
-          <span className="mx-auto flex size-11 items-center justify-center rounded-full bg-white text-violet-600 shadow-sm ring-1 ring-violet-100">
-            <Sparkles className="size-5" aria-hidden="true" />
-          </span>
-          <h3 className="mt-4 font-display text-xl font-semibold text-ink">
-            {t.servicesSection.otherTitle}
-          </h3>
-          <ul className="mt-6 flex flex-wrap justify-center gap-3">
-            {interestTags.map((tag) => (
-              <li key={tag.key}>
-                {tag.href ? (
-                  <Link
-                    href={tag.href}
-                    className={`${tagClass} border-violet-200 bg-white text-violet-700 hover:border-violet-700 hover:bg-violet-700 hover:text-white`}
-                  >
-                    {t.interestTags[tag.key]}
-                    <ArrowUpRight className="size-3.5" aria-hidden="true" />
-                  </Link>
-                ) : (
-                  <span className={`${tagClass} border-violet-200 bg-white text-violet-700`}>
-                    {t.interestTags[tag.key]}
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   );

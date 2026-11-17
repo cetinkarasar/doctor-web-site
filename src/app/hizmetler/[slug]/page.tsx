@@ -19,7 +19,7 @@ export async function generateMetadata({
   const content = tr.services[service.slug];
   const hasImage = getAvailableServiceImages().includes(service.slug);
   return {
-    title: `${content.title} – Konak / İzmir`,
+    title: `${content.title} – Konak Alsancak / İzmir`,
     description: content.summary,
     alternates: { canonical: `/hizmetler/${service.slug}` },
     openGraph: hasImage ? { images: [service.image] } : undefined,

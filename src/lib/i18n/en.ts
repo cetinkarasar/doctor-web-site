@@ -33,7 +33,7 @@ export const en: Dictionary = {
   about: {
     eyebrow: "About",
     description:
-      "Bringing more than thirty years of experience in obstetrics and gynecology to his patients at his private clinic in Konak since 2011.",
+      "Bringing more than thirty years of experience in obstetrics and gynecology to his patients at his private clinic in Konak Alsancak since 1989.",
     paragraphs: [
       "Op. Dr. Hüsnü Miral graduated from Ege University Faculty of Medicine in 1977 and completed his residency in Obstetrics and Gynecology at SSK Tepecik Maternity Hospital in 1989. From 1989 to 2011 he served as Chief Resident at the same hospital, contributing to the training of many specialist physicians.",
       "He provides care across a broad range of areas, including pregnancy follow-up, gynecological conditions, infertility, fibroids and ovarian cysts, HPV treatment and vaginismus. His approach to medicine is built on listening to patients, informing them clearly and remaining accessible at every stage of treatment.",
@@ -82,10 +82,10 @@ export const en: Dictionary = {
         "Served as Chief Resident for over twenty years, contributing to the education and training of specialist physicians.",
     },
     practice: {
-      period: "2011 – Present",
+      period: "1989 – Present",
       title: "Private Clinic",
-      institution: "Kızılkanat Health Center, Konak / İzmir",
-      description: "Continues to care for his patients at his private clinic in Konak, İzmir.",
+      institution: "Kızılkanat Health Center, Konak Alsancak / İzmir",
+      description: "Continues to care for his patients at his private clinic in Konak Alsancak, İzmir.",
     },
   },
   servicesSection: {
@@ -93,7 +93,6 @@ export const en: Dictionary = {
     title: "By your side at every stage of women's health",
     description:
       "The main diagnostic, treatment and counseling services offered at our clinic. Select a card for more details.",
-    otherTitle: "Other Areas of Expertise & Interest",
   },
   services: {
     "gebelik-takibi": {
@@ -199,45 +198,6 @@ export const en: Dictionary = {
         "Information on legal consent requirements",
         "Performed in a sterile setting in line with safety standards",
         "Follow-up examination after the procedure",
-      ],
-    },
-    "hipnozla-dogum": {
-      title: "Hypnobirthing",
-      summary:
-        "A hypnosis-supported preparation program to reduce anxiety and mentally prepare the mother for childbirth.",
-      intro:
-        "Hypnobirthing preparation uses sessions during pregnancy to help the mother reduce fears and anxiety about birth and learn relaxation and breathing techniques. It is planned as a complement to medical birth care.",
-      highlights: [
-        "Sessions starting at a suitable stage of pregnancy",
-        "Relaxation and breathing exercises",
-        "Coping with fear of childbirth",
-        "Mental preparation for vaginal birth",
-      ],
-    },
-    "anne-sutu-danismanligi": {
-      title: "Low Breast Milk Supply Counseling",
-      summary:
-        "Assessment, guidance and support for mothers experiencing low milk supply while breastfeeding.",
-      intro:
-        "Concerns about milk supply are common after birth. Personalized recommendations are provided after evaluating the mother's general health, nutrition, breastfeeding technique and possible hormonal factors.",
-      highlights: [
-        "Breastfeeding technique and positions",
-        "Evaluation of factors affecting milk production",
-        "Advice on nutrition and fluid intake",
-        "Postpartum maternal health follow-up",
-      ],
-    },
-    "mol-gebelik": {
-      title: "Molar Pregnancy",
-      summary:
-        "Diagnosis and treatment of molar pregnancy caused by abnormal placental growth, followed by hormone monitoring.",
-      intro:
-        "A molar pregnancy is a condition that results from abnormal growth of placental tissue. It is diagnosed with ultrasound and beta-hCG measurements; after treatment, regular follow-up until hormone levels return to normal is essential.",
-      highlights: [
-        "Diagnosis with ultrasound and beta-hCG",
-        "Evacuation of the uterus",
-        "Regular hormone monitoring after treatment",
-        "Counseling on planning future pregnancies",
       ],
     },
   },
@@ -358,48 +318,6 @@ export const en: Dictionary = {
         a: "Yes. A follow-up examination is carried out to confirm that recovery is progressing well. Information about contraception can also be provided at this visit.",
       },
     ],
-    "hipnozla-dogum": [
-      {
-        q: "When should hypnobirthing preparation begin?",
-        a: "Sessions usually begin in the second trimester and continue until birth. The starting time is planned together according to how your pregnancy is progressing.",
-      },
-      {
-        q: "Will I lose consciousness under hypnosis?",
-        a: "No. Hypnosis is a state of deep relaxation in which you remain conscious; the mother is aware of her surroundings and stays in control throughout.",
-      },
-      {
-        q: "Does hypnobirthing change situations that require a cesarean?",
-        a: "Hypnosis is a supportive method aimed at reducing anxiety about birth. When a cesarean is medically necessary, the mode of delivery is determined by medical assessment.",
-      },
-    ],
-    "anne-sutu-danismanligi": [
-      {
-        q: "How can I tell if my milk supply is low?",
-        a: "Your baby's weight gain, the number of wet diapers per day and whether your baby is settled after feeding are important signs. If you have concerns, an assessment is made together with your baby's growth records.",
-      },
-      {
-        q: "What can help increase milk supply?",
-        a: "Frequent breastfeeding with the right technique, adequate fluid intake, a balanced diet and rest all support milk production. Hormonal factors are also assessed when needed.",
-      },
-      {
-        q: "When should I see a doctor?",
-        a: "Seek advice promptly if your baby is not gaining enough weight, if you have breast pain, redness or fever, or if breastfeeding has become difficult for you.",
-      },
-    ],
-    "mol-gebelik": [
-      {
-        q: "How is a molar pregnancy detected?",
-        a: "Signs may include vaginal bleeding, marked nausea and vomiting, and a uterus larger than expected for the stage of pregnancy. A definitive diagnosis is made with ultrasound and blood beta-hCG levels.",
-      },
-      {
-        q: "Why is follow-up after treatment important?",
-        a: "After treatment, beta-hCG levels are measured regularly until they return to normal. This follow-up allows rare cases of remaining tissue to be detected early.",
-      },
-      {
-        q: "Can I get pregnant again after a molar pregnancy?",
-        a: "Yes, most patients go on to have healthy pregnancies once follow-up is complete. The right time for a new pregnancy is decided together based on your hormone results.",
-      },
-    ],
   },
   welcome: {
     eyebrow: "Our Approach",
@@ -413,18 +331,11 @@ export const en: Dictionary = {
     stats: [
       { value: "1989", label: "Specialist physician" },
       { value: "22 yrs", label: "Chief Resident at Tepecik" },
-      { value: "2011", label: "Private clinic in Konak" },
+      { value: "1989", label: "Private clinic in Konak Alsancak" },
     ],
     imageAlt: "Expecting parents holding a pair of baby shoes together",
     cardTitle: "Welcoming new lives",
     cardText: "From pregnancy to birth, every step",
-  },
-  interestTags: {
-    hypnobirthing: "Hypnobirthing",
-    hsg: "Hysterosalpingography (HSG)",
-    breastMilk: "Low Breast Milk Supply Counseling",
-    molarPregnancy: "Molar Pregnancy",
-    rhabdomyoma: "Rhabdomyoma",
   },
   detail: {
     scope: "Scope",
@@ -439,7 +350,7 @@ export const en: Dictionary = {
     eyebrow: "Contact & Location",
     title: "Contact us for appointments and information",
     description:
-      "Our clinic is located in Konak, inside the Kızılkanat Health Center. Examinations are by appointment only.",
+      "Our clinic is located in Konak Alsancak, inside the Kızılkanat Health Center. Examinations are by appointment only.",
     mapTitle: "Clinic location – Google Maps",
     hoursTitle: "Working Hours",
     quickTitle: "Quick Contact",
@@ -476,14 +387,14 @@ export const en: Dictionary = {
     close: "Close WhatsApp chat window",
     whatsappMessage: "Hello, I would like to book an appointment.",
     chatName: "Op. Dr. Hüsnü Miral",
-    chatStatus: "Clinic · Konak / İzmir",
+    chatStatus: "Clinic · Konak Alsancak / İzmir",
     greeting: "Hello, how can we help you?",
     greetingNote: "You can message us on WhatsApp for appointments and information.",
     startChat: "Start Chat",
   },
   footer: {
     blurb:
-      "Obstetrics and gynecology examinations and counseling by appointment in Konak, İzmir.",
+      "Obstetrics and gynecology examinations and counseling by appointment in Konak Alsancak, İzmir.",
     menu: "Menu",
     services: "Services",
     contact: "Contact",

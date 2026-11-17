@@ -31,7 +31,7 @@ export const tr = {
   about: {
     eyebrow: "Hakkında",
     description:
-      "Kadın hastalıkları ve doğum alanındaki otuz yılı aşkın deneyimini, 2011'den bu yana Konak'taki muayenehanesinde hastalarıyla buluşturmaktadır.",
+      "Kadın hastalıkları ve doğum alanındaki otuz yılı aşkın deneyimini, 1989'dan bu yana Konak Alsancak'taki muayenehanesinde hastalarıyla buluşturmaktadır.",
     paragraphs: [
       "1977 yılında Ege Üniversitesi Tıp Fakültesi'nden mezun olan Op. Dr. Hüsnü Miral, 1989'da SSK Tepecik Doğumevi'nde Kadın Hastalıkları ve Doğum uzmanlık eğitimini tamamladı. 1989 – 2011 yılları arasında aynı kurumda Başasistan olarak görev yaparak pek çok uzman hekimin yetişmesine katkı sağladı.",
       "Gebelik takibi, jinekolojik rahatsızlıklar, kısırlık, myom ve over kisti, HPV tedavisi ve vajinismus başta olmak üzere geniş bir alanda hizmet vermektedir. Hekimlik anlayışının merkezinde; hastayı dinlemek, doğru bilgilendirmek ve tedavi sürecinin her aşamasında ulaşılabilir olmak yer alır.",
@@ -80,11 +80,11 @@ export const tr = {
         "Başasistan olarak görev yaptı; yirmi yılı aşkın süre boyunca uzman hekimlerin yetişmesine ve eğitimine katkı sağladı.",
     },
     practice: {
-      period: "2011 – Günümüz",
+      period: "1989 – Günümüz",
       title: "Özel Muayenehane",
-      institution: "Kızılkanat Sağlık Sitesi, Konak / İzmir",
+      institution: "Kızılkanat Sağlık Sitesi, Konak Alsancak / İzmir",
       description:
-        "İzmir Konak'taki özel muayenehanesinde hastalarına hizmet vermeye devam etmektedir.",
+        "İzmir Konak Alsancak'taki özel muayenehanesinde hastalarına hizmet vermeye devam etmektedir.",
     },
   },
   servicesSection: {
@@ -92,7 +92,6 @@ export const tr = {
     title: "Kadın sağlığının her döneminde yanınızdayız",
     description:
       "Muayenehanemizde sunulan başlıca tanı, tedavi ve danışmanlık hizmetleri. Ayrıntılı bilgi için ilgili karta tıklayabilirsiniz.",
-    otherTitle: "Diğer Uzmanlık ve İlgi Alanları",
   },
   services: {
     "gebelik-takibi": {
@@ -198,45 +197,6 @@ export const tr = {
         "Yasal onam koşulları hakkında bilgilendirme",
         "Steril ortamda, güvenlik standartlarına uygun uygulama",
         "İşlem sonrası kontrol muayenesi",
-      ],
-    },
-    "hipnozla-dogum": {
-      title: "Hipnozla Doğum",
-      summary:
-        "Doğum sürecinde kaygıyı azaltmaya ve anneyi zihinsel olarak hazırlamaya yönelik hipnoz destekli hazırlık programı.",
-      intro:
-        "Hipnozla doğum hazırlığı, gebelik süresince yapılan seanslarla annenin doğuma ilişkin korku ve kaygılarını azaltmayı, gevşeme ve nefes tekniklerini öğrenmesini amaçlar. Uygulama, tıbbi doğum takibini tamamlayıcı bir destek olarak planlanır.",
-      highlights: [
-        "Gebeliğin uygun döneminde başlanan seanslar",
-        "Gevşeme ve nefes egzersizleri",
-        "Doğum korkusu ile başa çıkma",
-        "Normal doğuma zihinsel hazırlık",
-      ],
-    },
-    "anne-sutu-danismanligi": {
-      title: "Anne Sütünün Azlığı Danışmanlığı",
-      summary:
-        "Emzirme sürecinde süt yetersizliği yaşayan annelere yönelik değerlendirme, bilgilendirme ve destek.",
-      intro:
-        "Doğum sonrası dönemde süt miktarına ilişkin endişeler sık görülür. Annenin genel sağlık durumu, beslenmesi, emzirme tekniği ve olası hormonal etkenler değerlendirilerek kişiye özel öneriler sunulur.",
-      highlights: [
-        "Emzirme tekniği ve pozisyonları",
-        "Süt üretimini etkileyen etkenlerin değerlendirilmesi",
-        "Beslenme ve sıvı alımı önerileri",
-        "Doğum sonrası anne sağlığı takibi",
-      ],
-    },
-    "mol-gebelik": {
-      title: "Mol Gebelik (Üzüm Gebeliği)",
-      summary:
-        "Plasentanın anormal gelişimiyle oluşan mol gebeliğin tanısı, tedavisi ve sonrasındaki hormon takibi.",
-      intro:
-        "Mol gebelik, plasenta dokusunun anormal gelişimi sonucu ortaya çıkan bir gebelik durumudur. Ultrason ve beta-hCG ölçümleriyle tanı konulur; tedavi sonrasında hormon değerleri normale dönene kadar düzenli takip yapılması büyük önem taşır.",
-      highlights: [
-        "Ultrason ve beta-hCG ile tanı",
-        "Rahim içinin boşaltılması işlemi",
-        "Tedavi sonrası düzenli hormon takibi",
-        "Sonraki gebelik planlaması hakkında danışmanlık",
       ],
     },
   },
@@ -357,48 +317,6 @@ export const tr = {
         a: "Evet. İyileşmenin sorunsuz ilerlediğini doğrulamak için işlemden sonra kontrol muayenesi yapılır. Bu görüşmede doğum kontrol yöntemleri hakkında da bilgi verilebilir.",
       },
     ],
-    "hipnozla-dogum": [
-      {
-        q: "Hipnozla doğum hazırlığına ne zaman başlanmalı?",
-        a: "Seanslara genellikle gebeliğin ikinci üç aylık döneminde başlanır ve doğuma kadar devam edilir. Başlama zamanı gebeliğin seyrine göre birlikte planlanır.",
-      },
-      {
-        q: "Hipnoz sırasında bilincim kapanır mı?",
-        a: "Hayır. Hipnoz, bilincin açık olduğu derin bir gevşeme hâlidir; anne süreç boyunca çevresinin farkındadır ve kontrol kendisindedir.",
-      },
-      {
-        q: "Hipnozla doğum, sezaryen gerektiren durumları değiştirir mi?",
-        a: "Hipnoz, doğum kaygısını azaltmaya yönelik destekleyici bir yöntemdir. Tıbbi olarak sezaryen gerektiren durumlarda doğum şekli tıbbi değerlendirmeye göre belirlenir.",
-      },
-    ],
-    "anne-sutu-danismanligi": [
-      {
-        q: "Sütümün yetersiz olduğunu nasıl anlarım?",
-        a: "Bebeğin kilo alımı, günlük ıslak bez sayısı ve emzirme sonrasında huzurlu olup olmaması önemli göstergelerdir. Endişeleriniz varsa bebeğinizin büyüme takibiyle birlikte değerlendirme yapılır.",
-      },
-      {
-        q: "Süt miktarını artırmak için neler yapılabilir?",
-        a: "Sık ve doğru teknikle emzirme, yeterli sıvı alımı, dengeli beslenme ve dinlenme süt üretimini destekler. Gerekli durumlarda hormonal etkenler de değerlendirilir.",
-      },
-      {
-        q: "Hangi durumlarda doktora başvurmalıyım?",
-        a: "Bebeğiniz yeterli kilo almıyorsa, memede ağrı, kızarıklık veya ateş varsa ya da emzirme sizin için zorlayıcı bir hâl aldıysa beklemeden başvurmanız önerilir.",
-      },
-    ],
-    "mol-gebelik": [
-      {
-        q: "Mol gebelik nasıl anlaşılır?",
-        a: "Vajinal kanama, belirgin bulantı-kusma ve gebelik haftasına göre büyük rahim gibi bulgular görülebilir. Kesin tanı, ultrason ve kandaki beta-hCG düzeyinin değerlendirilmesiyle konur.",
-      },
-      {
-        q: "Tedavi sonrası takip neden önemlidir?",
-        a: "Tedavi sonrasında beta-hCG değerleri normale dönene kadar düzenli olarak ölçülür. Bu takip, nadiren görülebilen kalıntı dokunun erken fark edilmesini sağlar.",
-      },
-      {
-        q: "Mol gebelikten sonra tekrar gebe kalabilir miyim?",
-        a: "Evet, hastaların büyük çoğunluğu takip süreci tamamlandıktan sonra sağlıklı gebelikler yaşayabilir. Yeni gebelik için uygun zaman, hormon takibinin sonuçlarına göre birlikte belirlenir.",
-      },
-    ],
   },
   welcome: {
     eyebrow: "Hasta Yaklaşımımız",
@@ -412,18 +330,11 @@ export const tr = {
     stats: [
       { value: "1989", label: "Uzman hekim" },
       { value: "22 yıl", label: "Tepecik Doğumevi'nde başasistanlık" },
-      { value: "2011", label: "Konak'taki muayenehane" },
+      { value: "1989", label: "Konak Alsancak'ta özel muayenehane" },
     ],
     imageAlt: "Bebek ayakkabılarını birlikte tutan anne ve baba adayları",
     cardTitle: "Yeni hayatlara eşlik ediyoruz",
     cardText: "Gebelikten doğuma, her adımda",
-  },
-  interestTags: {
-    hypnobirthing: "Hipnozla Doğum",
-    hsg: "Histerosalpingografi (HSG)",
-    breastMilk: "Anne Sütünün Azlığı Danışmanlığı",
-    molarPregnancy: "Mol Gebelik (Üzüm Gebeliği)",
-    rhabdomyoma: "Rabdomiyom",
   },
   detail: {
     scope: "Kapsam",
@@ -438,7 +349,7 @@ export const tr = {
     eyebrow: "İletişim & Konum",
     title: "Randevu ve bilgi için bize ulaşın",
     description:
-      "Muayenehanemiz Konak'ta, Kızılkanat Sağlık Sitesi içerisindedir. Muayeneler randevu ile yapılmaktadır.",
+      "Muayenehanemiz Konak Alsancak'ta, Kızılkanat Sağlık Sitesi içerisindedir. Muayeneler randevu ile yapılmaktadır.",
     mapTitle: "Muayenehanemizin konumu – Google Haritalar",
     hoursTitle: "Çalışma Saatleri",
     quickTitle: "Hızlı İletişim",
@@ -475,14 +386,14 @@ export const tr = {
     close: "WhatsApp sohbet penceresini kapat",
     whatsappMessage: "Merhaba, randevu almak istiyorum.",
     chatName: "Op. Dr. Hüsnü Miral",
-    chatStatus: "Muayenehane · Konak / İzmir",
+    chatStatus: "Muayenehane · Konak Alsancak / İzmir",
     greeting: "Merhaba, size nasıl yardımcı olabiliriz?",
     greetingNote: "Randevu ve bilgi talepleriniz için WhatsApp üzerinden yazabilirsiniz.",
     startChat: "Sohbete Başla",
   },
   footer: {
     blurb:
-      "Konak / İzmir'de kadın hastalıkları ve doğum alanında randevulu muayene ve danışmanlık hizmeti.",
+      "Konak Alsancak / İzmir'de kadın hastalıkları ve doğum alanında randevulu muayene ve danışmanlık hizmeti.",
     menu: "Menü",
     services: "Hizmetler",
     contact: "İletişim",

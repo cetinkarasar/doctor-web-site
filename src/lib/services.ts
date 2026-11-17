@@ -1,10 +1,7 @@
 import {
   Baby,
-  Brain,
   ClipboardPlus,
   HeartHandshake,
-  Microscope,
-  Milk,
   ScanSearch,
   ShieldCheck,
   ShieldPlus,
@@ -15,8 +12,6 @@ import {
 import type { Dictionary } from "@/lib/i18n/tr";
 
 export type ServiceSlug = keyof Dictionary["services"];
-export type InterestTagKey = keyof Dictionary["interestTags"];
-
 export type Service = { slug: ServiceSlug; icon: LucideIcon; image: string };
 
 export const services: Service[] = [
@@ -30,26 +25,10 @@ export const services: Service[] = [
   { slug: "gebelik-sonlandirma-kurtaj", icon: ClipboardPlus, image: "/images/services/kurtaj.jpg" },
 ];
 
-export const otherServices: Service[] = [
-  { slug: "hipnozla-dogum", icon: Brain, image: "/images/services/hipnozla-dogum.jpg" },
-  { slug: "anne-sutu-danismanligi", icon: Milk, image: "/images/services/anne-sutu.jpg" },
-  { slug: "mol-gebelik", icon: Microscope, image: "/images/services/mol-gebelik.jpg" },
-];
-
-export const interestTags: { key: InterestTagKey; href?: string }[] = [
-  { key: "hypnobirthing", href: "/hizmetler/hipnozla-dogum" },
-  { key: "hsg", href: "/hizmetler/kisirlik-ve-asilama" },
-  { key: "breastMilk", href: "/hizmetler/anne-sutu-danismanligi" },
-  { key: "molarPregnancy", href: "/hizmetler/mol-gebelik" },
-  { key: "rhabdomyoma" },
-];
-
-const allServices = [...services, ...otherServices];
-
 export function getAllServices() {
-  return allServices;
+  return services;
 }
 
 export function getService(slug: string) {
-  return allServices.find((service) => service.slug === slug);
+  return services.find((service) => service.slug === slug);
 }

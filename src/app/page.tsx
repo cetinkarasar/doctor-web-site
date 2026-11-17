@@ -19,7 +19,7 @@ const physicianJsonLd = {
   address: {
     "@type": "PostalAddress",
     streetAddress: `${siteConfig.address.line1} ${siteConfig.address.line2}`,
-    addressLocality: "Konak",
+    addressLocality: "Konak Alsancak",
     addressRegion: "İzmir",
     addressCountry: "TR",
   },

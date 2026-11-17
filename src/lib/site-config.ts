@@ -4,7 +4,7 @@ export const siteConfig = {
   shortTitle: "Kadın Hastalıkları ve Doğum",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.drhusnumiral.com").replace(/\/$/, ""),
   description:
-    "Kadın Hastalıkları ve Doğum Uzmanı Op. Dr. Hüsnü Miral; Konak / İzmir'deki muayenehanesinde gebelik takibi, jinekolojik rahatsızlıklar, kısırlık (infertilite), myom, over kisti, HPV tedavisi ve vajinismus alanlarında hizmet vermektedir.",
+    "Kadın Hastalıkları ve Doğum Uzmanı Op. Dr. Hüsnü Miral; Konak Alsancak / İzmir'deki muayenehanesinde gebelik takibi, jinekolojik rahatsızlıklar, kısırlık (infertilite), myom, over kisti, HPV tedavisi ve vajinismus alanlarında hizmet vermektedir.",
   phone: {
     display: "0532 265 97 07",
     href: "tel:+905322659707",
@@ -15,10 +15,10 @@ export const siteConfig = {
   },
   email: "hcmiral@gmail.com",
   address: {
-    line1: "Mimar Sinan Mah. 1359. Sok.",
-    line2: "Kızılkanat Sağlık Sitesi No:2 D:A Blok",
-    district: "Konak / İzmir",
-    full: "Mimar Sinan Mah. 1359. Sok. Kızılkanat Sağlık Sitesi No:2 D:A Blok, Konak / İzmir",
+    line1: "Mimar Sinan Mahallesi 1359 Sok. No:2 Daire:44",
+    line2: "Kızılkanat Sağlık Sitesi A Blok",
+    district: "Konak Alsancak / İzmir",
+    full: "Mimar Sinan Mahallesi 1359 Sok. No:2 Daire:44 Kızılkanat Sağlık Sitesi A Blok, Konak Alsancak / İzmir",
   },
   nav: [
     { key: "home", href: "/#ana-sayfa" },
